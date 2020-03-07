@@ -1,8 +1,8 @@
 {
   "name": "setup",
   "version": "1.0.0",
+  "private": true,
   "description": "React/Parcel",
-  "main": "src/App.js",
   "scripts": {
     "clear-build-cache": "rm -rf .cache/ dist/",
     "dev": "parcel public/index.html",
@@ -16,25 +16,26 @@
   "author": "James Hagood",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "@babel/preset-env": "^7.7.7",
-    "@babel/preset-react": "^7.7.4",
-    "babel-eslint": "^10.0.3",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.1.0",
     "cross-env": "^6.0.3",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-plugin-import": "^2.19.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "@reach/router": "^1.2.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "@reach/router": "^1.3.3",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2"
   },
   "browserslist": [
     "last 2 Chrome versions",
